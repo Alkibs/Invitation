@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.containerJumbotron {
+    background-image: url(../Img/BSP04969.JPG);
+    width: 100%;
+    height: 675px;
+    background-size: cover;
+    margin: 0;
+    position: relative;
+    z-index: 0;
+}
+.containerJumbotron .descJumbotron {
+    margin: 0;
+    color: white;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    text-align: center;
+}
+.containerJumbotron .descJumbotron h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+.containerJumbotron .descJumbotron h2 {
+   color: #00FFE0;
+}
+.containerImage {
+    margin-top: -5rem;
+    z-index: 1;
+    position: relative;
+}
+.containerImage img {
+    width: 600px;
+    margin: auto;
+    display: block;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+.containerNama {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+.containerNama .nama {
+    text-align: center;
+}
+.containerNama .nama h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+}
+.containerNama .nama p {
+    font-family: 'EB Garamond', serif;
+}
+.containerDoa {
+    width: 70%;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.containerDoa p {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.3rem;
+}
+.containerJam {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #111616;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+.containerJam h1 {
+    font-family: 'Dancing Script', cursive;
+}
+.containerJam h2,p {
+    font-family: 'EB Garamond', serif;
+}
+.containerJam button {
+    width: 30%;
+    padding: 1rem;
+    border-radius: 50px;
+    background-color: #00FFE0;
+    color: white;
+    font-weight: bold;
+    border: none;
+    transition: 0.2s;
+}
+.containerJam button:hover {
+    background-color: #174742;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.containerJam img {
+    width: 300px;
+}
+.containerJam h1 {
+    color: #00FFE0;
+}
+.weddingPhoto {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.weddingPhoto img {
+    width: 300px;
+}
+.weddingPhoto2 {
+    margin-top: 2rem;
+}
+.weddingPhoto2 img {
+    width: 300px;
+    margin: auto;
+    display: block;
+}
+.penutup {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2rem;
+}
+.penutup p {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.3rem;
+}
+@media (min-width: 350px) and (max-width: 576px) {
+    .containerJumbotron {
+        background-image: url(../Img/BSP04969.JPG);
+        width: 100%;
+        height: 350px;
+        background-size: cover;
+        margin: 0;
+        position: relative;
+        z-index: 0;
+    }
+    .containerJumbotron .descJumbotron {
+        margin: 0;
+        color: white;
+        position: absolute;
+        left: 34%;
+        top: 55%;
+        text-align: center;
+    }
+    .containerJumbotron .descJumbotron h1 {
+        font-family: 'Dancing Script', cursive;
+        font-size: 1rem;
+    }
+    .containerJumbotron .descJumbotron h2 {
+       
+        font-size: 1rem;
+    }
+    .containerImage {
+        margin-top: -1.5rem;
+    }
+    .containerImage img {
+        width: 70%;
+        margin: auto;
+        display: block;
+        border-radius: 25px;
+        border: 2px solid white;
+    }
+    .containerNama {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 2rem;
+    }
+    .containerNama .nama {
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .containerNama .nama h1 {
+        font-family: 'Dancing Script', cursive;
+        font-size: 2rem;
+    }
+    .containerNama .nama p {
+        font-family: 'EB Garamond', serif;
+        font-size: 0.6rem;
+    }
+    .containerDoa {
+        width: 90%;
+        font-weight: bold;
+        margin: auto;
+        text-align: center;
+        margin-top: 2.5rem;
+    }
+    
+    .containerDoa p {
+        font-family: 'EB Garamond', serif;
+        font-size: 0.7rem;
+    }
+    .containerJam {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #111616;
+        margin-top: 2rem;
+        padding: 1rem 0;
+        text-align: center;
+        color: white;
+        align-items: center;
+    }
+    .containerJam .akad {
+        padding: 0 0.5rem;
+    
+    }.containerJam .resepsi {
+        padding: 0 0.5rem;
+    }
+    .containerJam h1 {
+        font-family: 'Dancing Script', cursive;
+    }
+    .containerJam h2,h3 {
+        font-family: 'EB Garamond', serif;
+        
+    }
+    .containerJam button {
+        width: 40%;
+        padding: 1rem;
+        border-radius: 50px;
+        background-color: #00FFE0;
+        color: white;
+        font-weight: bold;
+        border: none;
+        transition: 0.2s;
+    }
+    .containerJam button:hover {
+        background-color: #174742;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .containerJam img {
+        width: 300px;
+        margin: 1.5rem 0;
+    }
+    .containerJam h1 {
+        color: #00FFE0;
+    }
+    .weddingPhoto {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 2rem;
+    }
+    .weddingPhoto img {
+        width: 300px;
+
+        display: block;
+        margin: 1rem auto;
+    }
+    .weddingPhoto2 {
+        margin-top: 2rem;
+    }
+    .weddingPhoto2 img {
+        width: 300px;
+        margin: auto;
+        display: block;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    .containerJumbotron {
+        background-image: url(../Img/BSP04969.JPG);
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+        margin: 0;
+        position: relative;
+        z-index: 0;
+    }
+    .containerJumbotron .descJumbotron {
+        margin: 0;
+        color: white;
+        position: absolute;
+        left: 30%;
+        top: 55%;
+        text-align: center;
+    }
+    .containerJumbotron .descJumbotron h1 {
+        font-family: 'Dancing Script', cursive;
+        font-size: 2rem;
+    }
+    .containerJumbotron .descJumbotron h2 {
+       
+        font-size: 1rem;
+    }
+    .containerImage {
+        margin-top: -1.5rem;
+    }
+    .containerImage img {
+        width: 70%;
+        margin: auto;
+        display: block;
+        border-radius: 25px;
+        border: 2px solid white;
+    }
+    .containerNama {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 2rem;
+    }
+    .containerNama .nama {
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .containerNama .nama h1 {
+        font-family: 'Dancing Script', cursive;
+        font-size: 2rem;
+    }
+    .containerNama .nama p {
+        font-family: 'EB Garamond', serif;
+        font-size: 1rem;
+    }
+    .containerDoa {
+        width: 90%;
+        font-weight: bold;
+        margin: auto;
+        text-align: center;
+        margin-top: 2.5rem;
+    }
+    
+    .containerDoa p {
+        font-family: 'EB Garamond', serif;
+        font-size: 1rem;
+    }
+    .containerJam {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #111616;
+        margin-top: 2rem;
+        padding: 1rem 0;
+        text-align: center;
+        color: white;
+        align-items: center;
+    }
+    .containerJam .akad {
+        padding: 0 0.5rem;
+    
+    }.containerJam .resepsi {
+        padding: 0 0.5rem;
+    }
+    .containerJam h1 {
+        font-family: 'Dancing Script', cursive;
+    }
+    .containerJam h2,h3 {
+        font-family: 'EB Garamond', serif;
+        
+    }
+    .containerJam button {
+        width: 40%;
+        padding: 1rem;
+        border-radius: 50px;
+        background-color: #00FFE0;
+        color: white;
+        font-weight: bold;
+        border: none;
+        transition: 0.2s;
+    }
+    .containerJam button:hover {
+        background-color: #174742;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .containerJam img {
+        width: 300px;
+        margin: 1.5rem 0;
+    }
+    .containerJam h1 {
+        color: #00FFE0;
+    }
+    .weddingPhoto {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 2rem;
+    }
+    .weddingPhoto img {
+        width: 300px;
+
+        display: block;
+        margin: 1rem auto;
+    }
+    .weddingPhoto2 {
+        margin-top: 2rem;
+    }
+    .weddingPhoto2 img {
+        width: 300px;
+        margin: auto;
+        display: block;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .containerJumbotron {
+        background-image: url(../Img/BSP04969.JPG);
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+        margin: 0;
+        position: relative;
+        z-index: 0;
+    }
+    .containerJumbotron .descJumbotron {
+        margin: 0;
+        color: white;
+        position: absolute;
+        left: 34%;
+        top: 55%;
+        text-align: center;
+    }
+    .containerJumbotron .descJumbotron h1 {
+        font-family: 'Dancing Script', cursive;
+        font-size: 2rem;
+    }
+    .containerJumbotron .descJumbotron h2 {
+       
+        font-size: 1rem;
+    }
+    .containerImage {
+        margin-top: -1.5rem;
+    }
+    .containerImage img {
+        width: 70%;
+        margin: auto;
+        display: block;
+        border-radius: 25px;
+        border: 2px solid white;
+    }
+    .containerNama {
+        display: flex;
+        
+        justify-content: space-around;
+        margin-top: 2rem;
+    }
+    .containerNama .nama {
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .containerNama .nama h1 {
+        font-family: 'Dancing Script', cursive;
+        font-size: 2rem;
+    }
+    .containerNama .nama p {
+        font-family: 'EB Garamond', serif;
+        font-size: 1rem;
+    }
+    .containerDoa {
+        width: 90%;
+        font-weight: bold;
+        margin: auto;
+        text-align: center;
+        margin-top: 2.5rem;
+    }
+    
+    .containerDoa p {
+        font-family: 'EB Garamond', serif;
+        font-size: 1rem;
+    }
+    .containerJam {
+        width: 100%;
+        display: flex;
+      
+        justify-content: space-around;
+        background-color: #111616;
+        margin-top: 2rem;
+        padding: 1rem 0;
+        text-align: center;
+        color: white;
+        align-items: center;
+    }
+    .containerJam .akad {
+        padding: 0 0.5rem;
+    
+    }.containerJam .resepsi {
+        padding: 0 0.5rem;
+    }
+    .containerJam h1 {
+        font-family: 'Dancing Script', cursive;
+    }
+    .containerJam h2,h3 {
+        font-family: 'EB Garamond', serif;
+        
+    }
+    .containerJam button {
+        width: 50%;
+        padding: 1rem;
+        border-radius: 50px;
+        background-color: #00FFE0;
+        color: white;
+        font-weight: bold;
+        border: none;
+        transition: 0.2s;
+    }
+    .containerJam button:hover {
+        background-color: #174742;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .containerJam img {
+        width: 300px;
+        margin: 1.5rem 0;
+    }
+    .containerJam h1 {
+        color: #00FFE0;
+    }
+    .weddingPhoto {
+        width: 100%;
+        height: auto;
+        display: flex;
+       
+        justify-content: space-around;
+        margin-top: 2rem;
+    }
+    .weddingPhoto img {
+        width: 200px;
+
+        display: block;
+        margin: 1rem auto;
+    }
+    .weddingPhoto2 {
+        margin-top: 2rem;
+    }
+    .weddingPhoto2 img {
+        width: 200px;
+        margin: auto;
+        display: block;
+    }
+}
